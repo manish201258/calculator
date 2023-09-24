@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+width: 100%;
+min-height: 100vh;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items:center;
+background-color: #85FFBD;
+background-image: linear-gradient(45deg, #85FFBD 0%, #ffb27d 100%);
+
+}
+.calc-main{
+width: 250px;
+height: 500px;
+display: flex;
+flex-direction: column;
+background-color: aliceblue;
+border-radius: 10px;
+gap: 40px;
+background-color: rgb(26, 25, 25);
+
+}
+.inputsection{
+    padding-top: 60px ;
+    padding-left: 10px ;
+    padding-right: 10px 
+    
+}
+.inputsection input{
+    width: 100%;
+    height: 100px;  
+    border-style: none;
+    outline: none;
+    border-radius: 8px;
+    background-color: rgba(237, 232, 232, 0.804);
+}
+
+
+.first-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 10px;
+    padding-left: 10px ;
+    padding-right: 10px ;
+}
+.first-row img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: auto;
+}
+a{
+    border: 1px solid;
+    border-width: 48px;
+}
+ button{
+    width: 48px;
+    height: 48px;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 3px rgb(255, 255, 255);
+    border-style:none;
+    border-radius: 8px;
+    transition: linear;
+    transition-duration: 0.1s;
+    background-color: rgb(26, 25, 25);
+    color: aliceblue;
+}
+button:active{
+    background-color: rgb(208, 210, 211);
+    
+}
